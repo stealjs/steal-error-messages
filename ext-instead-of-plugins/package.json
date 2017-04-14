@@ -1,0 +1,22 @@
+{
+  "name": "ext-instead-of-plugins",
+  "version": "0.0.1",
+  "description": "An example app setting \"ext\" instead of \"plugins\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bitovi",
+  "license": "MIT",
+  "devDependencies": {
+    "steal": "^1.4.2",
+    "steal-css": "^1.2.2",
+    "steal-less": "^1.2.0"
+  },
+  "steal": {
+    "ext": {
+      "css": "steal-css",
+      "less": "steal-less"
+    }
+  }
+}
