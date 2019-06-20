@@ -1,0 +1,9 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "ext-instead-of-plugins/package.json"
+      ]
+    }
+  }
+}
